@@ -1,0 +1,238 @@
+.invest {
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgb(85, 83, 83);
+  display: flex;
+  justify-content: space-around;
+  
+  .blochain {
+    display: flex;
+
+    h1 {
+      color: rgb(218, 121, 85);
+      font-size: 20px;
+    }
+    p {
+      color: white;
+      font-size: 16px;
+    }
+  }
+
+  .registr {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    p {
+      color: white;
+      font-size: x-small;
+    }
+    .registr{
+      color: white;
+    }
+    a {
+      list-style: none;
+      text-decoration: none;
+    
+      text-align: center;
+    }
+    .btc{
+      color: white;
+      font-size: x-small;
+    }
+    .login{
+      color: orangered;
+      font-size: x-small;
+    }
+  }
+}
+.slide {
+  margin: auto;
+  max-width: 1440px;
+}
+.bitcoin {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  padding: 25px;
+  .morbi{
+    display: flex;
+  }
+  .selbitcoin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    max-width: 60%;
+  }
+  button {
+    background-color: rgb(228, 121, 82);
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+  }
+  @media screen and (max-width: 768px){
+    .morbi{
+      display: flex;
+      flex-direction: column;
+img{
+  max-width: 100%;
+}
+    }
+  }
+
+}
+.exchange {
+  padding: 80px;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  .respon{
+    display: flex;
+  }
+  p {
+    max-width: 60%;
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .read {
+    max-width: 32%;
+  }
+
+  @media screen and (max-width: 768px){
+    .respon{
+      display: flex;
+      flex-direction: column;
+      .read{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          max-width: 50%;
+        }
+      }
+    }
+  }
+}
+
+.take {
+  background-color: rgb(238, 238, 238);
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+  .sekil {
+    display: flex;
+    gap: 20px;
+  }
+  .lookat {
+    padding: 20px;
+    text-align: center;
+  }
+  .create {
+    img {
+      max-width: 100%;
+    }
+    p {
+      max-width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .sekil{
+      display: flex;
+      flex-direction: column;
+      .create{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+    }
+  }
+
+}
+
+.latest {
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+.lattek{
+  text-align: center;
+}
+  .whole-card {
+    display: flex;
+    gap: 25px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .newcard {
+    background-color: rgb(240, 240, 240);
+    max-width: 32%;
+    h1{
+      font-size: 20px;
+    }
+    a {
+      list-style: none;
+      text-decoration: none;
+      background-color: rgb(255, 141, 99);
+      color: white;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .whole-card{
+      display: flex;
+      flex-direction: column;
+      .newcard{
+        display: flex;
+      flex-direction: column;
+       margin: auto;
+        max-width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+footer {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #212529;
+  padding: 30px;
+  p {
+    color: rgb(219, 219, 219);
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  .byfoot {
+    display: flex;
+    gap: 10px;
+  }
+  .homes{
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    li{
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 768px){
+    ul li{
+      display: none;
+    }
+  }
+}

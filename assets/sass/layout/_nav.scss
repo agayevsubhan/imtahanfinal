@@ -1,0 +1,27 @@
+nav{
+   margin: auto;
+   max-width: 1440px;
+   .container-fluid{
+    background-color: rgb(255, 114, 62);
+    display: flex;
+    
+    justify-content: space-around;
+    padding: 20px;
+   }
+.blogs{
+    margin-right: 50px;
+}
+.ofiic{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.nav-link{
+    list-style: none;
+}
+@media screen and (max-width: 768px){
+    .navalin {
+        display: none;
+    }
+}
+}
